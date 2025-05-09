@@ -1,0 +1,97 @@
+/* Container for the profile page */
+.custom-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1200px;
+    margin: 0 auto; /* centers the container */
+}
+
+/* Header styling */
+.custom-header h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+/* Card styling */
+.custom-card {
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Card body styling */
+.custom-card .card-body {
+    padding: 20px;
+    background-color: #fff;
+}
+
+/*  users.blade.php css starts here
+
+/* custom.css */
+
+/* Body background and font settings */
+body {
+    background-color: #f8f9fa; /* Light grey background */
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* Container spacing */
+.container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* Card customization */
+.card {
+    border: none;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+/* Card header styling */
+.card-header {
+    background: linear-gradient(135deg, #007bff, #6610f2);
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Table styling */
+.table {
+    margin-bottom: 0;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    vertical-align: middle;
+    padding: 0.75rem;
+    text-align: left;
+}
+
+.table th.text-center,
+.table td.text-center {
+    text-align: center;
+}
+
+/* Hover state for table rows */
+.table-hover tbody tr:hover {
+    background-color: rgba(0, 123, 255, 0.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+    .card-header h2 {
+        font-size: 1.5rem;
+    }
+}
+
+
+
+/*  users.blade.php css end here

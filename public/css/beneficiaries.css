@@ -1,0 +1,140 @@
+/* beneficiaires.blade.php css starts here
+
+/* Container & Layout */
+.beneficiaries-container {
+    margin: 3rem auto;
+    padding: 0 1rem;
+    max-width: 1200px;
+}
+
+.beneficiaries-row {
+    display: flex;
+    justify-content: center;
+}
+
+/* Updated column width */
+.beneficiaries-col {
+    width: 100%;
+    max-width: 1200px;
+}
+
+/* Card Styles */
+.beneficiaries-card {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    border: none;
+    background-color: #fff;
+}
+
+.beneficiaries-card-header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.beneficiaries-title {
+    margin: 0;
+    font-weight: bold;
+}
+
+.beneficiaries-card-body {
+    padding: 0;
+}
+
+/* Table Styles */
+.beneficiaries-table-responsive {
+    overflow-x: auto;
+}
+
+.beneficiaries-table {
+    width: 100%;
+    margin-bottom: 0;
+    border-collapse: collapse;
+}
+
+.beneficiaries-table th,
+.beneficiaries-table td {
+    padding: 0.75rem;
+    border-top: 1px solid #dee2e6;
+    vertical-align: middle;
+}
+
+.beneficiaries-table thead th {
+    background-color: #343a40;
+    color: #fff;
+}
+
+/* No Data Alert */
+.no-data {
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+.alert {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #d1ecf1;
+    color: #0c5460;
+    border-radius: 0.25rem;
+}
+
+/* Utility Classes */
+.text-center {
+    text-align: center;
+}
+
+.align-middle {
+    vertical-align: middle;
+}
+
+/* Info icon placeholder */
+.info-icon {
+    margin-right: 0.5rem;
+}
+
+.add-beneficiary-container {
+    display: flex;
+    justify-content: flex-end;  /* Aligns the button to the right */
+    margin-bottom: 20px;        /* Adjust spacing as needed */
+}
+
+.add-beneficiary-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Optional: Hover effect */
+.add-beneficiary-btn:hover {
+    background-color: #0056b3;  /* Darker shade for hover state */
+}
+/* Ensure the container has some horizontal padding */
+.beneficiaries-container {
+    padding: 0 15px;
+}
+
+/* Adjust table font-size and cell padding for better fit */
+.beneficiaries-table {
+    font-size: 0.9rem;
+}
+
+.beneficiaries-table th,
+.beneficiaries-table td {
+    padding: 0.5rem;
+}
+
+/* Optional: Adjust the card header/title spacing */
+.beneficiaries-card-header {
+    padding: 1rem;
+    background-color: #f8f9fa;
+}
+
+.beneficiaries-title {
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+
+
+/* beneficiaires.blade.php css end here
